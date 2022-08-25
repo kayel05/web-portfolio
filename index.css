@@ -1,0 +1,24 @@
+/* Google Font */
+.body{
+	overflow-x: hidden;
+	font-family: 'Epilogue', sans-serif;
+}
+
+/* Nav Bar design */
+.navbar {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand img{
+	height: 2rem;
+}
+
+/* Header Video */
+/* Style the video: 100% width and height to cover the entire window */
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
