@@ -1,24 +1,49 @@
 /* Google Font */
-.body{
-	overflow-x: hidden;
+body {
 	font-family: 'Epilogue', sans-serif;
+	background: lightcyan ;
 }
 
-/* Nav Bar design */
-.navbar {
-	background: rgba(0, 0, 0, 0.6);
+/* Container Border */
+
+#landing:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+  cursor: pointer;
+
 }
 
-.navbar-brand img{
-	height: 2rem;
+/* About Me */
+
+#self-image {
+	border-radius: 30%;
+	background-image: var(--img-url), linear-gradient(#f9f047, #0fd850);
+	border: 5px solid black;
+	cursor: pointer
 }
 
-/* Header Video */
-/* Style the video: 100% width and height to cover the entire window */
-.fullscreen-video-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
+#about-me:hover {
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+	cursor: pointer
+}
+
+/* Projects */
+.card {
+	cursor: pointer 
+}
+
+.card.hover, .card:hover {
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+/* Contact Me */
+#contact-me:hover {
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+	cursor: pointer
+}
+
+/*Footer Icon*/
+.footer-icon
+
+.fa-telegram {
+	color: 0088cc;
 }
