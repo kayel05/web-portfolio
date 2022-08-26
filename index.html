@@ -24,8 +24,8 @@
 
   <body class="background-image">
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
-      <a class="navbar-brand d-md-none" href="#"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
+      <a class="navbar-brand" href="#"></a>
 
       <button class="navbar-toggler" 
               type="button" 
@@ -38,19 +38,20 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto text-center text-md-left">
-              <li class="nav-item">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
                   <a href="#landing" class="nav-link">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                   <a href="#about-me" class="nav-link">About</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#contact-me">Contacts</a>
+              <li class="nav-item active">
+                  <a href="#contact-me"class="nav-link">Contacts</a>
               </li>
           </ul>
-          <ul class="navbar-nav pl-0 mr-auto text-center text-md-left">
-               <li class="nav-item dropdown">
+        
+          <ul class="navbar-nav mr-auto">
+               <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" 
                 href="#" role="button" 
                 data-toggle="dropdown" 
@@ -63,14 +64,14 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#marine-projects">Marine Projects</a>
                 </div>
-              </li> 
+                </li> 
           </ul>
       </div>
     </nav>
     <!-- Navbar End --> 
 
     <!-- Container Start -->
-    <div class="container text-center">
+    <div class="container mx-auto text-center">
 
       <!-- Home Start -->
       <section class="jumbotron my-5 d-flex flex-column py-5 align-items-center mt-3" id="landing">
@@ -78,7 +79,7 @@
           <h1 class="display-5">Michael Calasin</h1>
           <h4 class="display-10">Software Engineer in the Future</h1>
           <p class="lead">A <strong>Father</strong>, <strong>Husband</strong>, former <strong>Merchant Marine</strong>, <strong>Marine Surveyor</strong> and aspiring <strong>Web Developer</strong></p>
-          <a href="#about-me"><button class="btn btn btn-primary" id="first-btn">Learn More</button></a>
+          <a href="#about-me"><button class="btn btn btn-dark" id="first-btn">Learn More</button></a>
         </div>
       </section>
       <!-- Home End -->
@@ -86,10 +87,10 @@
       <!-- About Me Start -->
       <section class="row p-5 d-flex align-items-md-center mb-5" id="about-me">
         <div class="col-12 col-md-6 text-right">
-            <img class="img-fluid" src="./image/profile.jpg" id="self-image" alt="me" data-aos="flip-up">
+            <img class="img-fluid" src="./image/profile.jpg" id="self-image" alt="me">
                 </div>
                 <div class="col-12 col-md-6 mt-3">
-                    <div class="mx-3 p-3 mx-md-0 p-md-5 mb-5 bg-light text-justify aos-init aos-animate" id="about-card" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="mx-3 p-3 mx-md-0 p-md-5 mb-5 bg-light text-justify" id="about-card">
                         <h3>About Me</h3>
                         <p>
                            I'm Michael Calasin, a former Merchant Marine Officer and Marine Surveyor based on Oslo, Norway. I specialize in Maritime Logistics, Engineering and Naval Architecture and everything that connects to energy like Oil, Gas and Chemical. I also work for various Maritime Research and Business Intelligence. I enjoy creating impactful works and if you're interested in working together, please feel free to get in touch. 
@@ -100,10 +101,8 @@
       <!-- About Me End -->
 
       <!-- Project Start -->
-      <section class="row mx-3 p-3 mx-md-0 p-md-5 mb-5 bg-light shadow aos-init aos-animate" 
-               id="my-projects" 
-               data-aos="fade-up" 
-               data-aos-duration="3000">
+      <section class="row mx-3 p-3 mx-md-0 p-md-5 mb-5 bg-light shadow" 
+               id="my-projects" >
         <div class="col-12">
             <h3>My Projects</h3>
                 </div>
@@ -112,8 +111,8 @@
                         <img src="./image/web.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Web Development</h5>
-                        <p class="card-text text-justify">In this ever-changing digital landscape, our best-in-class web development services, which include mobile web designs, custom websites, static and dynamic websites, platform engineering, and intranet experiences, add considerable value to our clients and deliver tangible business benefits.</p>
-                        <a href="#" target="blank"><button class="btn btn-dark">View Project</button></a>
+                        <p class="card-text text-justify">In this ever-changing digital landscape, Zuitt's bootcamp provided me with comprehensive web development services, such as mobile web designs, custom websites, static and dynamic websites, platform engineering, and intranet experiences, which add significant value to our clients and deliver tangible business benefits.</p>
+                        <a href="https://gitlab.com/michaelcalasin" target="blank"><button class="btn btn-dark">View Project</button></a>
                         </div>
                     </div>
                 </div>
@@ -122,8 +121,8 @@
                         <img src="./image/data.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Data Science</h5>
-                        <p class="card-text text-justify">We use machine learning (ML) tools and algorithms to help companies develop AI-driven products and solutions. Our team has profound knowledge and experience in designing, implementing, and integrating artificial intelligence solutions into the customer’s business environment.</p>
-                        <a href="#" target="blank"><button class="btn btn-dark">View Project</button></a>
+                        <p class="card-text text-justify">Machine learning (ML) tools and algorithms to are excellent for bridging the gap of companies developing AI-driven products and solutions. With my profound knowledge and experience in designing, implementing, and integrating artificial intelligence solutions into the customer’s business environment, I can build complex data model that can impact the organization. </p>
+                        <a href="https://gitlab.com/michaelcalasin" target="blank"><button class="btn btn-dark">View Project</button></a>
                         </div>
                     </div>
                 </div>
@@ -132,8 +131,8 @@
                         <img src="./image/boat.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Marine Projects</h5>
-                        <p class="card-text text-justify">The Maritime Consulting Group is a leading BUSINESS and TECHNOLOGY Consultancy, specializing in the Shipping and Transport industries, focused on Strategy and Business Change Management, and efficiency-oriented to results and success!</p>
-                        <a href="#" target="blank"><button class="btn btn-dark">View Project</button></a>
+                        <p class="card-text text-justify">With a decade of experience in the Maritime Industry, I can strategically apply my knowledge throughout management and innovation that can impact a company's market position, specializing in the Shipping and Transport industries, focusing on Strategy and Business Change Management, and being results-oriented and success-oriented.</p>
+                        <a href="https://gitlab.com/michaelcalasin" target="blank"><button class="btn btn-dark">View Project</button></a>
                         </div>
                     </div>
                 </div>
@@ -146,53 +145,92 @@
       <!-- Project End -->
 
       <!-- Contact -->
-      <section class="row mx-1 p-3 mx-md-0 p-md-5 mb-2 bg-light shadow aos-init aos-animate" 
-               id="contact-me" 
-               data-aos="fade-up" 
-               data-aos-duration="3000">
+      <section class="row mx-1 p-3 mx-md-0 p-md-5 mb-2 bg-light shadow" 
+               id="contact-me">
         <div class="col-12">
             <h3>Let's connect</h3>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="username" placeholder="Your Username">
+                    <form action="#">
+                        <div class="container-fluid contact-form">
+                         <!-- Name (text input) -->
+                         <div class="form-group pt-3">
+                             <label for="yourName">Name</label>
+                             <input type="text" class="form-control" id="yourName" placeholder="Full Name" required>
+                         </div>
+
+                         <!-- Email Address (email input) -->
+                         <div class="form-group">
+                             <label for="yourEmail">Email Address</label>
+                             <input type="email" class="form-control" id="yourEmail" placeholder="name@example.com" required>
+                         </div>
+
+                         <!-- Contact Number (number input) -->
+                         <div class="form-group">
+                             <label for="yourContactNumber">Contact Number</label>
+                             <input type="number" class="form-control" id="yourContactNumber" placeholder="+47 000 00 000" required>
+                         </div>
+
+                         <!-- Message (textarea) -->
+                         <div class="form-group">
+                             <label for="yourMessage">Message</label>
+                             <textarea class="form-control" id="yourMessage" rows="8" required></textarea>
+                         </div>   
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your E-mail">
+
+                        <!-- Button -->
+                        <button type="submit" class="btn btn-dark mt-3" data-toggle="modal" data-target="#sendEmail">Send Email</button>
+
+
+                        <!-- Modal Start -->
+                        <div class="modal fade text-dark" id="sendEmail" tabindex="-1" aria-labelledby="sendEmailLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="sendEmailLabel">Thank you for contacting us!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                Message Successfully Sent
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <div class="form-group">
-                            <input type="number" class="form-control" id="contact-number" placeholder="Your Contact Number">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" cols="30" rows="9" placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="button" class="btn btn-primary w-100" id="send-msg-btn">Send Message</button>
-                        </div>
+                        <!-- Modal End -->
                     </form>
+                    <!-- Form End -->                       
                 </div>
-                <div class="col-12 col-lg-6">
-                    <iframe class="d-none d-lg-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329.8556769405977!2d10.755362493533989!3d59.91769006957172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e66b5f4c15f%3A0xe2798afef71c4981!2sStorgata%2095%2C%200182%20Oslo!5e0!3m2!1sen!2sno!4v1661436540411!5m2!1sen!2sno" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="container-fluid col-12 col-lg-6" id="googleapis">
+                    <iframe class="d-none d-lg-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329.8556769405977!2d10.755362493533989!3d59.91769006957172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e66b5f4c15f%3A0xe2798afef71c4981!2sStorgata%2095%2C%200182%20Oslo!5e0!3m2!1sen!2sno!4v1661436540411!5m2!1sen!2sno" width="500" height="530" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>      
       </section>
       <!-- Contact End -->
 
       <!-- Footer -->
-        <footer class="footer-icon">
-            <div class="pb-4">
-                <a href="t.me/web_developerz"><div class="btn btn-telegram">
-                    <i class="fa-brands fa-telegram"></i> Telegram
-                </div></a>
-                <a href="https://web.whatsapp.com/"><div class="btn btn-discord"> 
-                    <i class="fa-brands fa-discord"></i> Discord
-                </div></a>
-               <a href="TinyTony#9502"><div class="btn btn-whatsapp">
-                    <i class="fa-brands fa-whatsapp"></i> Whatsapp
-               </div></a>
-               <a href="https://www.linkedin.com/in/michael-calasin-548a37248/"><div class="btn btn-linkedin">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
-               </div></a>
+        <footer id="footer-icon">
+            <div class="pb-1 mb-5 mt-5 text-light">
+                <span>
+                     <a href="t.me/web_developerz"><div class="btn btn-telegram">
+                         <i class="fa-brands fa-telegram"></i> Telegram
+                     </div></a>
+                     <a href="https://web.whatsapp.com/"><div class="btn btn-discord"> 
+                         <i class="fa-brands fa-discord"></i> Discord
+                     </div></a>
+                    <a href="TinyTony#9502"><div class="btn btn-whatsapp">
+                         <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </div></a>
+                    <a href="https://www.linkedin.com/in/michael-calasin-548a37248/"><div class="btn btn-linkedin">
+                         <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </div></a>
+                    <a href="https://twitter.com/"><div class="btn btn-twitter">
+                         <i class="fa-brands fa-twitter"></i> Twitter
+                    </div></a>
+                </span>
            </div>
         </footer>
       <!-- Footer End -->

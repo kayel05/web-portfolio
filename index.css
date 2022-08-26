@@ -1,45 +1,72 @@
 /* Google Font */
 body {
 	font-family: 'Epilogue', sans-serif;
-	background: lightcyan ;
 }
 
 /* CSS Reset */
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 /* BG Body */
 .background-image {
-	background-image: url("./image/wallpaper.jpg");
+	background-image: linear-gradient(to right, #4B79A1, #283E51);
+}
+
+/* Nav Bar*/
+.navbar {
+	background-image: linear-gradient(to right, #C02425, #F0CB35);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.nav-link:hover {
+	color: black !important;
+	font-weight: 600;
+	border-bottom: 1px solid white;
+}
+
+.dropdown-item {
+	color: black !important;
+	font-weight: 600;
+	border-bottom: 1px solid white;
+}
+
+@media(max-width: 668px){
+	.navbar-nav{text-align: center;}
 }
 
 /* Image Border */
 #landing {
 	border: 1px solid black;
+	background-image: linear-gradient(to left, #4CA1AF, #C4E0E5);
+	border-radius: 12px;
 }
 
 #landing:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
   cursor: pointer;
 }
 
 /* About Me */
 #self-image {
 	border-radius: 30%;
-	border: 5px solid black;
-	box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+	border: 2px solid black;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
 	cursor: pointer;
 }
 
 #about-card:hover {
-	box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
 	cursor: pointer
 }
 
 #about-card {
 	border: 1px solid black;
+	background-image: linear-gradient(to left, #4CA1AF, #C4E0E5);
+	border-radius: 12px;
 }
 
 /* Projects */
@@ -48,21 +75,62 @@ body {
 }
 
 .card:hover {
-	box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .1)
 }
 
 #my-projects {
 	border: 1px solid black;
+	background-image: linear-gradient(to left, #4CA1AF, #C4E0E5);
+	border-radius: 12px;
 }
+
 
 /* Contact Me */
 #contact-me:hover {
-	box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
 	cursor: pointer
 }
 
 #contact-me {
 	border: 1px solid black;
+	background-image: linear-gradient(to left, #4CA1AF, #C4E0E5);
+	border-radius: 12px;
 }
 
-/*Footer Icon*/
+.contact-form {
+	border: 1px solid black;
+	background-image: linear-gradient(to left, #4CA1AF, #C4E0E5);
+	border-radius: 12px;
+}
+
+.contact-form:hover {
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
+	cursor: pointer
+}
+
+
+/* Footer */
+#footer-icon {
+	background-image: linear-gradient(to left, #4CA1AF, #C4E0E5);
+	border-radius: 12px;
+}
+
+.fa-brands:hover {
+	color: black !important;
+	font-weight: 600;
+	border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
